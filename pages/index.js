@@ -1,3 +1,6 @@
+import Footer from "@/components/Footer";
+import Header from "@/components/Header";
+import Main from "@/components/Main";
 import Head from "next/head";
 
 export default function Home() {
@@ -6,6 +9,9 @@ export default function Home() {
       <Head>
         <title>New Lesson</title>
       </Head>
+      <Header />
+      <Main />
+      <Footer />
     </>
   );
 }
